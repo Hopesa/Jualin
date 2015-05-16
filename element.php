@@ -3,7 +3,8 @@
 //Must be Included to every Page
 require('/includes/config.php');
 $script="";
-$script.='    <script src="js/jquery.js"></script>
+$script.='    
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><script src="js/jquery.js"></script>
 	<script src="js/price-range.js"></script>
     <script src="js/jquery.scrollUp.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
