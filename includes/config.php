@@ -18,7 +18,7 @@ $sFolder = 'login';
 		and password (password) to what your database information uses. 
 		Same with the database name if you used something else.
 ****************/
-mysql_connect('localhost', 'root', 'empires456') or trigger_error("Unable to connect to the database: " . mysql_error());
+mysql_connect('localhost', 'root', 'oass') or trigger_error("Unable to connect to the database: " . mysql_error());
 mysql_select_db('tgsphp') or trigger_error("Unable to switch to the database: " . mysql_error());
 /***************
 	password salts are used to ensure a secure password
